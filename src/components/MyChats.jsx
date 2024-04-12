@@ -146,7 +146,7 @@ else {
             />
             </Tooltip>
             <Tooltip label={setProfileLatestMessagePicToolTip(chat)} hasArrow placement="bottom-end">
-            <Box paddingLeft={3} backgroundColor="red"> 
+            <Box paddingLeft={3} > 
               <Text>
                 <b>{!chat.isGroupChat
                   ? getSender(loggedUser, chat.users)
